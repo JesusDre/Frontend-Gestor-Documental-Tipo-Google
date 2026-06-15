@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom";
+import type { PropsWithChildren } from 'react';
 
-export const MainLayout = () => {
-  return <Outlet />;
+export const MainLayout = ({ children }: PropsWithChildren) => {
+  return <>{children}</>;
 };

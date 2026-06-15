@@ -1,3 +1,5 @@
+import { UserDriveDashboard } from '../user';
+
 export const DrivePage = () => {
-  return <h1>Drive</h1>;
+  return <UserDriveDashboard />;
 };
